@@ -3,12 +3,10 @@ imports:
 
 framework:
     test: ~
-    session:
-        storage_id: session.storage.filesystem
+    router:     { resource: "%kernel.root_dir%/config/routing.yml" }
+    session:    { default_locale: %locale% }
+    translator: { fallback: %locale% }
 
-web_profiler:
-    toolbar: false
-    intercept_redirects: false
-
-swiftmailer:
-    disable_delivery: true
+be_simple_i18n_routing:
+    attribute_translator:
+        type: translator

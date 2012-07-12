@@ -10,22 +10,6 @@
     git=http://github.com/Seldaek/monolog.git
     version=1.0.2
 
-[doctrine-common]
-    git=http://github.com/doctrine/common.git
-    version=2.1.4
-
-[doctrine-dbal]
-    git=http://github.com/doctrine/dbal.git
-    version=2.1.7
-
-[doctrine]
-    git=http://github.com/doctrine/doctrine2.git
-    version=2.1.7
-
-[swiftmailer]
-    git=http://github.com/swiftmailer/swiftmailer.git
-    version=v4.1.7
-
 [assetic]
     git=http://github.com/kriswallsmith/assetic.git
     version=v1.0.3
@@ -61,3 +45,13 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[BeSimpleI18nRoutingBundle]
+    git=git://github.com/BeSimple/BeSimpleI18nRoutingBundle.git
+    target=/bundles/BeSimple/I18nRoutingBundle
+    version=origin/2.0
+
+[XiBreadcrumbsBundle]
+    git=git://github.com/xi-project/xi-bundle-breadcrumbs.git
+    target=/bundles/Xi/Bundle/BreadcrumbsBundle
+    version=origin/master
