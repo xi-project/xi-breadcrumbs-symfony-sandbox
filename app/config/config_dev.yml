@@ -1,5 +1,5 @@
 imports:
-    - { resource: parameters.ini }
+    - { resource: parameters.yml }
     - { resource: @XiBreadcrumbsBundle/Resources/config/services.yml }
 
 framework:
