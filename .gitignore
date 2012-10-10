@@ -1,9 +1,10 @@
-composer.lock
-composer.phar
-/web/bundles/
+/app/SymfonyRequirements.php
 /app/bootstrap*
 /app/cache/*
-/app/logs/*
-/vendor/
 /app/config/parameters.yml
+/app/logs/*
 /app/phpunit.xml
+/vendor/
+/web/bundles/
+composer.lock
+composer.phar
