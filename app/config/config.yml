@@ -1,5 +1,5 @@
 imports:
-    - { resource: parameters.ini }
+    - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: @XiBreadcrumbsBundle/Resources/config/services.yml }
 
@@ -12,8 +12,8 @@ framework:
     csrf_protection: true
     validation:      { enable_annotations: false }
     templating:      { engines: ['twig'] }
+    default_locale:  %locale%
     session:
-        default_locale: %locale%
         auto_start:     true
 
 # Twig Configuration
